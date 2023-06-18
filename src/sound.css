@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Georgia, serif;
+  color: white;
+}
+
+.header{
+  margin-top: 1px;
+  padding-left: 10px;
+  top: 0;
+  border-bottom: 2px solid black;
+  position: relative;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+
+.lists{
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  font-size: 23px;
+  padding: 2px;
+  margin-top: -53px;
+  margin-left: 650px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+footer{
+  font-size: 20px;
+  line-height: 0;
+  padding: 10px 30px 20px 30px;
+   -webkit-text-stroke: 0.9px black;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 2px solid white;
+}
+
+.HYP {
+  padding: 50px 30px 10px 30px;
+}
+
+.bg {
+  width: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    background-image: url(/src/Images/Arenagrey.png);
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: auto;
+}
+
+p {
+  font-size: 18px;
+}
+
+.s1 {
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: -25px;
+}
+
+h1{
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 48px;
+    font-family: Gill Sans, sans-serif;
+}
+
+p{
+    font-size: 20px;
+    line-height: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+iframe{
+    width: 1200px;
+    height: 650px;
+    background-color: black;
+    box-shadow: 10px 10px white;
+}
+
+
+.name :hover {
+  color: #e7317c;
+  transition:  ease-in 0.5s;
+}
+
+.lists :hover {
+  background-color: #e7317c;
+  padding: 3px;
+  color: white;
+  transition:  ease-in 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
