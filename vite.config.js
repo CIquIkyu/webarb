@@ -10,6 +10,9 @@ export default {
         src: "./src/sound.html",
         whatshypmic: "./whatshypmic/whatshypmic.html",
       },
+       input: {
+        main: "./index.html",
+       src: "./src/character.html",
     },
   },
 };
