@@ -15,4 +15,5 @@ export default {
        src: "./src/character.html",
     },
   },
-};
+}
+}
