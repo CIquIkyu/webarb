@@ -4,7 +4,7 @@ export default {
     rollupOptions: {
       input: {
         main: "./index.html",
-        products: './src/whatshypmic.html', 
+        src: './src/whatshypmic.html', 
       },
     },
   },
