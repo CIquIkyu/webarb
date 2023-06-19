@@ -24,7 +24,7 @@ body {
     position: relative;
     overflow: hidden;
     background-color: #fff;
-    background-image: url(/src/arenagrey.png);
+    background-image: url(/src/Images/arenagrey.png);
     background-attachment: fixed;
     background-position: center top;
     background-size: auto;
