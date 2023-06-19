@@ -7,6 +7,7 @@ export default {
         whatshypmic: "./whatshypmic/whatshypmic.html",
         story: "./story/story.html",
         character: "./character/character.html",
+        sound: ".sound/sound.html"
       },
   },
 }
