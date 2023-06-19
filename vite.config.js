@@ -16,7 +16,6 @@ export default {
         src: './src/S1Page.html',
         src: './src/S2Page.html',
         src: './src/Special.html',
-        src: '',
       },
     },
   },
