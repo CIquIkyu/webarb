@@ -9,12 +9,9 @@ export default {
         character: "./character/character.html",
         sound: "./sound/character.html",
       },
+     // input: {
+     //   S1Page: "./S1Page/S1Page.html"
+      //},
   },
-    rollupOptions: {
-      input: {
-        story: "./story/story.html",
-        S1Page: "./S1Page/S1Page.html"
-      },
-}
 }
 }
