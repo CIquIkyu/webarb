@@ -1,9 +1,18 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  font-family: Georgia, serif;
+  margin: -10px;
+  background-color: red;
+   font-family: Georgia, serif;
 }
+
+.header{
+  margin-top: 10px;
+  padding-left: 10px;
+  top: 0;
+  border-bottom: 2px solid black;
+  background-color: white;
+  position: relative;
+}
+
 
 .bg {
   width: 100%;
@@ -61,12 +70,6 @@ img:hover{
 
 }
 
-.header{
-  margin-top: 1px;
-  padding-left: 10px;
-  top: 0;
-  border-bottom: 2px solid black;
-}
 
 .name {
   display: flex;

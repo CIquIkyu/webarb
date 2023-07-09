@@ -1,14 +1,14 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  font-family: Georgia, serif;
+  margin: -10px;
+  background-color: red;
+   font-family: Georgia, serif;
 }
 
 .header{
-  margin-top: 1px;
+  margin-top: 10px;
   padding-left: 10px;
   top: 0;
+  background-color: white;
   border-bottom: 2px solid black;
   position: relative;
 }
@@ -39,9 +39,9 @@ footer{
   font-size: 20px;
   line-height: 0;
   padding: 10px 30px 20px 30px;
-   -webkit-text-stroke: 0.9px black;
+   -webkit-text-stroke: 0.7px black;
   color: white;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: bold;
   border-top: 2px solid white;
 }
@@ -79,7 +79,7 @@ footer{
 
 .title {
   font-size: 50px;
-   margin: 30px 210px 40px 10px;
+   margin: 0px 210px 40px 10px;
    color: white;
     font-family: Gill Sans, sans-serif;
 }
@@ -102,13 +102,14 @@ p {
 }
 
 .click{
-  border: 1.5px black solid;
-  border-radius: 30px;
+  border: 2px black solid;
+  border-radius: 20px;
   background-color: plum;
   padding: 20px;
-  margin-right: 1040px;
-  font-size: 25px;
+  margin: 10px;
+  font-size: 30px;
   align-items: center;
+  font-family: Georgia, serif;
 }
 
 .click:hover {
@@ -123,7 +124,7 @@ p {
 
 .name :hover {
   color: #e7317c;
-  transition:  ease-in 0.5s;
+  transition:  ease-in 0.3s;
 }
 
 .lists :hover {

@@ -1,11 +1,16 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: -10px;
+  background-color: red;
    font-family: Georgia, serif;
 }
 
 img{
   width: 100%;
+ 
+}
+
+.burger{
+  display: none;
 }
 
 .nav {
@@ -14,7 +19,8 @@ img{
 }
 
 .header{
-  margin-top: 1px;
+  display: flex;
+  margin-top: 5px;
   padding-left: 10px;
   top: 0;
   position: relative;
@@ -42,6 +48,17 @@ a{
   color: black;
 }
 
+.drop {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  padding: 2px;
+  display: none;
+}
+
+
 footer{
   font-size: 20px;
   line-height: 0;
@@ -50,8 +67,8 @@ footer{
   color: rgb(217, 212, 212);
   font-size: 18px;
   font-weight: bold;
-   position: absolute;
-  bottom: 15px;
+  position: absolute;
+  bottom: 8px;
 }
 
 .name :hover {
@@ -68,21 +85,78 @@ footer{
 
 @media (max-width: 480px) {
 
-  body{
-    background-color: blueviolet;
+body{
+    background-color: red;
+  }
+
+.nav{
+  background-color: beige;
+  width: 100%;
   }
 
  .name {
-  background-color: turquoise;
-  width: 405px;
-  font-size: 15px;
+  font-size: 13px;
+  margin-left: 4px;
  }
 
+
  img {
-  margin-top: 60px;
+  display: none;
  }
 
  .lists {
    display: none;
+ }
+
+ /*.drop {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  padding: 2px;
+  background-color:blueviolet;
+  position: absolute;
+}*/
+ 
+ /*.burger {
+  display: var(--fa-display,inline-block);
+  border-radius: 5px;
+  padding: 8.3px;
+  background-color: white;
+  border: 2px solid black;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 380px;
+ }*/
+
+.dropdown {
+  position: relative;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.show {display: block;}
+
+.fa-bars:before, .fa-navicon:before {
+    content: "\f0c9";
+}
+
+
+
+ i {
+  font-size: 20px;
+ }
+
+ footer {
+  display: none;
  }
 }
